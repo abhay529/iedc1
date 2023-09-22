@@ -1,0 +1,466 @@
+body{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.navbar{
+    position: -webkit-sticky;
+    background: white;
+}
+
+nav{
+    width: 100vw;
+    padding-left: 0em !important;
+    padding-right: 0em !important;
+    font-family: 'Exo';
+    
+}
+
+.nav-link{
+    color: rgb(1, 65, 65) !important;
+    
+    margin-left: 30px;
+    
+}
+.About{
+    position: relative;
+    left: -238px;
+}
+.Interest{
+    position: relative;
+    left: -238px;
+}
+.submit{
+    position: relative;
+    left: -238px;
+}
+.Attendance{
+    position: relative;
+    left: 1175px;
+    top: -19px;
+}
+.dis{
+    color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: rgb(1, 220, 130);
+    position: relative;
+    left: 1161px;
+    top: -19px;
+}
+.navbar-brand{
+    margin-left: 30px;
+}
+.nav-link:hover {
+    
+   color: rgb(1, 220, 130) !important ;
+   
+}
+
+.nav-link.active{
+    font-weight: bold ;
+    
+}
+
+
+.navbar-toggler{
+    margin-left: 30px;
+    margin-right: 790px;
+}
+
+/* nav bar over */
+
+
+.navsha{
+    height: 100px;
+    width: 100vw;
+    background: linear-gradient(180deg, rgb(245, 245, 245) 0%, rgba(245, 245, 245, 0) 100%);
+}
+
+/* nav bar shadow over */
+
+
+
+.twobtn{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(0, 60, 60);
+    margin: 0%;
+}
+
+.twobtn:hover{
+    box-shadow: 0px 9px 19px rgba(0, 0, 0, 0.15);
+}
+
+span{
+    color: rgb(1, 220, 130);
+}
+
+.homepageiedc{
+    width: 100vw;
+    height: 100vh;
+
+}
+.homecontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    background: linear-gradient(180deg, rgba(1, 220, 130, 0.09) 0%, rgba(1, 220, 130, 0.0) 100%);
+    
+}
+h1{
+    font-family: 'exo';
+    font-size: 72 px;
+}
+
+
+.homepic{
+    width: 45vw;
+    margin: auto;
+}
+
+.homecontent{
+
+    padding: 50px;
+    
+}
+
+.homepara{
+    font-family: 'poppins';
+    font-size: 1.3em;
+}
+
+
+/* section 2 */
+
+.section2{
+    padding-left:100px;
+    padding-right: 100px;
+    color: rgb(0, 60, 60);
+    font-family:'poppins';
+    text-align: center;
+}
+
+.listrf{
+    margin-top: 40px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.proud{
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'exo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 137.9%;
+    position: relative;
+    left: 579px;
+}
+
+.btn{
+color: white;
+}
+strong{
+    font-weight: 700;
+    color: rgb(1, 220, 130);
+}
+
+em{
+    color: rgba(0, 60, 60, 0.475);
+    font-size: 16px;
+}
+
+/* section3 */
+
+.section3{
+    color: rgb(0, 60, 60);
+    font-family: 'poppins';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.part1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px;
+}
+
+#ico{
+    margin: 20px;
+}
+
+/* section 4 */
+
+.section4{
+    color: rgb(0, 60, 60);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 80vw;
+    margin: auto;
+    
+    
+}
+
+#container{
+    padding: 20px;
+    margin: 30px;
+    margin-left: 0;
+}
+#hd{
+    font-family: 'exo';
+    font-weight: 700;
+}
+
+.para{
+    margin-top: 30px;
+    font-family: 'poppins';
+    font-size: 20px;
+}
+
+.group{
+    border-radius: 20px;
+}
+
+/* footer */
+
+footer{
+    background-color: rgb(0, 60, 60);
+    color: white;
+    font-family: 'poppins';
+    font-size: 20;
+    width: 100vw;
+    height: 350px;
+    padding: 70px;
+}
+
+.iconcontainer{
+    float: right;
+    
+}
+
+#icom{
+    width: 25px;
+    height: auto;
+    margin: 10px;
+}
+
+
+    .navsha{
+        height: 30px;
+        background: linear-gradient(180deg, rgb(245, 245, 245) 0%, rgba(245, 245, 245, 0) 100%);
+        
+    }
+
+    .homecontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background: linear-gradient(180deg, rgba(1, 220, 130, 0.09) 0%, rgba(1, 220, 130, 0.0) 100%);
+    
+}
+h1{
+    font-size: 70px;
+}
+
+.homehed{
+    font-family: 'exo';
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.homepic{
+    width: 20px;
+    height: 20px;
+}
+
+.homecontent{
+    padding-left: 140px;
+}
+
+.homepara{
+    font-family: 'poppins';
+    font-size: 20px;
+}
+
+    .proud{
+        font-size: 30px;
+    }
+
+    .section2{
+        padding: 40px;
+        color: rgb(0, 60, 60);
+        font-family:'poppins';
+    }
+    
+    .proud{
+        margin-top: unset;
+        text-align: left;
+        font-family: 'exo';
+        font-style: unset;
+        font-weight: 700;
+        font-size: 24px;
+        
+    }
+
+    .listrf{
+        margin-top: 16px;
+        display: unset;
+        font-size: 16px;
+    }
+
+    em{
+        color: rgba(0, 60, 60, 0.475);
+        font-size: 12px;
+    }
+
+    .section3{
+        color: rgb(0, 60, 60);
+        font-family: 'poppins';
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .part1{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 20px;
+    }
+    
+    #ico{
+        
+        margin: 20px;
+        margin-top:0 ;
+    }
+
+    .section4{
+        color: rgb(0, 60, 60);
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        margin: unset;
+        padding: 40px;
+        
+    }
+    
+    #container{
+        padding: 0;
+        margin: 0;
+        margin-left: 0;
+    }
+    #hd{
+        font-family: 'exo';
+        font-weight: 700;
+        font-size: 18px;
+    }
+    
+    .para{
+        
+        margin-top: unset;
+        font-family: 'poppins';
+        font-size: 14px;
+        
+    }
+    .group{
+        width: 80vw;
+        height: auto;
+        border-radius: 20px;
+    }
+
+    footer{
+        background-color: rgb(0, 60, 60);
+        color: white;
+        font-family: 'poppins';
+        font-size: 8px;
+        width: 100vw;
+        height: 200px;
+    
+        padding: 50px;
+    }
+    
+    .iconcontainer{
+        float: right;
+        
+    }
+    
+    #icom{
+        width: 10px;
+        height: auto;
+        margin: 10px;
+    }
+
+    #fotrlogo{
+        width: 80px;
+        height: auto;
+    }
+
+    .homecontainer{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+       
+        background: linear-gradient(180deg, rgba(0, 219, 128, 0.09) 0%, rgba(1, 220, 130, 0.0) 100%);
+        
+    }
+    
+    .homehed{
+        margin-top: 40px;
+        font-family: 'exo';
+        font-weight: 700;
+        font-size: 26px;
+        
+    }
+    
+    .homepic{
+        min-width: 90vw;
+        resize: inherit;
+        
+    }
+
+    .hmp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .homecontent{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 0;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    
+    .homepara{
+        font-family: 'poppins';
+        font-size: 12px;
+    }
+
+    .twobtn{
+        width :90px;
+        height: 30px;
+        background-color: rgb(0, 60, 60);
+        margin: 0%;
+        border-radius: 4px;
+        font-size: 10px;
+    }
